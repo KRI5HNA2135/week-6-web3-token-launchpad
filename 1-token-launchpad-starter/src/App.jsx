@@ -10,7 +10,9 @@ import {
 } from '@solana/wallet-adapter-react-ui';
 import '@solana/wallet-adapter-react-ui/styles.css';
 
+
 function App() {
+  
   return (
     
   <div>
@@ -21,6 +23,7 @@ function App() {
          <div style={{
                 display: 'flex',
                 justifyContent: 'space-between',
+                borderRadius: '20px',
                 padding: 20
               }}>
            <WalletMultiButton />
