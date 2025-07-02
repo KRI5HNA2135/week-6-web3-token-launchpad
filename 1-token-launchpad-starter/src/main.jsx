@@ -4,10 +4,8 @@ import App from './App.jsx'
 import './index.css'
 
 createRoot(document.getElementById('root')).render(
-  <>
-<h1>dsalfasd</h1>
+  
   <StrictMode>
     <App />
   </StrictMode>,
-  </>
 )
