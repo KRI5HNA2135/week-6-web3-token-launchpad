@@ -14,6 +14,6 @@ export function TokenLaunchpad() {
         <input className='inputText' type='text' placeholder='Symbol'></input> <br />
         <input className='inputText' type='text' placeholder='Image URL'></input> <br />
         <input className='inputText' type='text' placeholder='Initial Supply'></input> <br />
-        <button onClick={createToken} className='btn'>Create a token</button>
+        <button className='btn'>Create a token</button>
     </div>
 }
