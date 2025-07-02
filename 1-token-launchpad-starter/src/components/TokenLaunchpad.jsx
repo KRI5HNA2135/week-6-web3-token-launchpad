@@ -1,13 +1,6 @@
 
 export function TokenLaunchpad() {
 
-    function createToken() {
-        const name = document.getElementById('name').value;
-        const symbol = document.getElementById('symbol').value; 
-        const image = document.getElementById('image').value;
-        const initialSupply = document.getElementById('initialSupply').value;
-    }
-
 
     return  <div style={{
         height: '100vh',
